@@ -45,12 +45,12 @@ const AboutUs = ({ apiPath }) => {
           the world of cinema with us and experience entertainment like never
           before!!
         </p>
-<p className="text-3xl font-medium text-grey-900 mt-6 ">
-Developed by{" "}
-  <span className="text-white bg-gradient-to-r from-gray-800 to-gray-900 animate-pulse px-4 py-2 rounded-full shadow-xl hover:bg-gradient-to-l transition-all duration-300 ease-in-out">
-    Shivam Modanwal
-  </span>
-</p> 
+        <p className="text-xl sm:text-2xl md:text-3xl font-medium text-gray-200 mt-6">
+          Developed by{" "}
+          <span className="text-white bg-gradient-to-r from-gray-800 to-gray-900 animate-pulse px-4 py-2 rounded-full shadow-xl hover:bg-gradient-to-l transition-all duration-300 ease-in-out whitespace-nowrap">
+            Shivam Modanwal
+          </span>
+        </p> 
       </div>
     </div>
   );
@@ -58,28 +58,3 @@ Developed by{" "}
 
 export default AboutUs;
 
-
-
-
-
-
-// import React from "react";
-
-// const AboutUs = () => {
-//   return (
-//     <div className="flex flex-col justify-center items-center text-center h-screen p-6 bg-gray-900 text-white">
-//       <h1 className="text-4xl font-bold mb-4">About CineVerse</h1>
-//       <p className="text-lg max-w-2xl mb-6">
-//         Welcome to <span className="text-blue-400">CineVerse</span> – your ultimate destination for the latest, trending, and top-rated movies! We bring you a vast collection of films from around the world, keeping you updated with the hottest releases and timeless classics. Dive into the world of cinema with us and experience entertainment like never before!
-//       </p>
-//       <p className="text-lg font-semibold">Created by Shivam Modanwal</p>
-//       <img
-//         src="https://source.unsplash.com/featured/?cinema,movies"
-//         alt="Cinema Experience"
-//         className="rounded-2xl shadow-lg w-full max-w-3xl"
-//       />
-//     </div>
-//   );
-// };
-
-// export default AboutUs;
