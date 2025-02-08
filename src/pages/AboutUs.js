@@ -43,7 +43,7 @@ const AboutUs = ({ apiPath }) => {
           We bring you a vast collection of films from around the world, keeping
           you updated with the hottest releases and timeless classics. Dive into
           the world of cinema with us and experience entertainment like never
-          before!
+          before!!
         </p>
 <p className="text-3xl font-medium text-grey-900 mt-6 ">
 Developed by{" "}
